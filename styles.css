@@ -1,0 +1,37 @@
+body{
+    animation-duration: 3s;
+    animation-name: slidein;
+    margin:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@keyframes slidein {
+    from {
+        margin-right: 100%;
+        width: 200%;
+    }
+
+    to {
+        margin-left: 200;
+        width: 100;
+    }
+}
+
+.image-el{
+    width: 150px;
+    border-radius: 5px;
+}
+.card{
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    text-shadow: 2px 2px white;
+    margin: 0px auto;
+    width: 400px;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    background-color: #c6f8ff;
+    color: #2b2839;
+    border-bottom: 6px solid #6f7bf7;
+}
+
